@@ -7,4 +7,3 @@ const PENCILS = 40;
 $paints = ALL_PICTURES - MARKERS - PENCILS;
 
 echo "Красками нарисовано $paints рисунков.<br />";
-
