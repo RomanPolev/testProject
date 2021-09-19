@@ -5,7 +5,7 @@
  * Date: 16.09.21
  * Time: 20:08
  */
-$day = 1;
+$day = rand(0, 10);
 
 switch ($day) {
     case 1:
