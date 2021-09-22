@@ -64,3 +64,28 @@ function task2_1(...$args)
     return eval("echo " . $out . ";");
 }
 
+function task3($rows = 3, $cols = 3)
+{
+
+    echo "<table  border='1' >";
+
+    for ($tr = 1; $tr <= $rows; $tr++) {
+
+        echo "<tr>";
+
+        for ($td = 1; $td <= $cols; $td++) {
+            $res = $tr * $td;
+
+            if ($tr % 2 == 0 && $td % 2 == 0) {
+                $res = "(" . $res . ")";
+            } elseif ($tr % 2 == 1 && $td % 2 == 1) {
+                $res = "[" . $res . "]";
+            }
+
+            echo "<td width = '50' align = 'center' height = '40'>$res</td>";
+
+        }
+
+        echo "</tr>";
+    }
+}
