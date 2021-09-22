@@ -9,3 +9,4 @@ require("src/functions.php");
 
 $strings = ['one', 'two', 'three'];
 task1($strings);
+task2_1("+", 1, 2, 3);
