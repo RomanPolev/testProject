@@ -1,24 +1,24 @@
 <?php
 
 $bmw = [
-    model => "X5",
-    speed => 120,
-    doors => 5,
-    year => "2015",
+    "model" => "X5",
+    "speed" => 120,
+    "doors" => 5,
+    "year" => 2015,
 ];
 
 $toyota = [
-    model => "Camry",
-    speed => 110,
-    doors => 5,
-    year => "2011",
+    "model" => "Camry",
+    "speed" => 110,
+    "doors" => 5,
+    "year" => 2011,
 ];
 
 $opel = [
-    model => "Tigra",
-    speed => 140,
-    doors => 3,
-    year => "2006",
+    "model" => "Tigra",
+    "speed" => 140,
+    "doors" => 3,
+    "year" => 2006,
 ];
 
 $cars = [

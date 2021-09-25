@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 /**
  * Created by PhpStorm.
  * User: z-player
@@ -8,6 +9,7 @@
 require("src/functions.php");
 
 $strings = ['one', 'two', 'three'];
-//task1($strings);
-//task2_1("+", 1, 2, 3);
-task3();
+
+//echo task1($strings);
+//task2("+", 3, -10, 1);
+task3(1, 3.5);
